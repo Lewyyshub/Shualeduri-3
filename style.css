@@ -1,0 +1,400 @@
+@font-face {
+  font-family: Big Shoulders Display;
+  src: url(/fonts/BigShouldersDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: Outfit;
+  src: url(./fonts/Outfit-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1439px;
+  height: 2554px;
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box1 {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.img1 {
+  max-width: 450px;
+  height: auto;
+  gap: 0px;
+  opacity: 0px;
+  object-fit: cover;
+}
+.img2 {
+  width: 100%;
+  max-width: 540px;
+  height: auto;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.txt_box {
+  position: absolute;
+  display: flex;
+  gap: 400px;
+  top: 189px;
+  left: 230px;
+}
+.modern {
+  width: 514px;
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+
+  font-family: "Big Shoulders Display";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 12px;
+}
+.thearts {
+  position: absolute;
+  left: 730px;
+  color: var(--Dark-Grey, #444);
+  font-feature-settings: "liga" off, "clig" off;
+
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 350px;
+  position: absolute;
+  left: 702px;
+}
+.lery {
+  color: var(--Almost-Black, #151515);
+  font-feature-settings: "liga" off, "clig" off;
+
+  font-family: "Big Shoulders Display";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  text-transform: uppercase;
+}
+.btndiv {
+  justify-content: center;
+  top: 200px;
+  left: 700px;
+  position: absolute;
+  display: flex;
+  width: 260px;
+  height: 72px;
+  flex-shrink: 0;
+  background: var(--Almost-Black, #151515);
+  border: none;
+}
+.arrow {
+  background-color: #d5966c;
+  width: 56px;
+  height: 72px;
+  flex-shrink: 0;
+  color: #fff;
+  position: absolute;
+  left: 205px;
+  border: none;
+}
+.location {
+  text-decoration: none;
+  left: 50px;
+  top: 25px;
+  position: absolute;
+  text-wrap: nowrap;
+  color: var(--White, #fff);
+  font-family: "Big Shoulders Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 3.636px;
+  background: var(--Almost-Black, #151515);
+  font-family: Big Shoulders Display;
+}
+.box2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  max-width: auto;
+  height: auto;
+  padding-left: 100px;
+  padding-top: 240px;
+}
+.txt_div2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-right: 130px;
+}
+.imgdiv1 {
+  padding-left: 60px;
+}
+.img3 {
+  width: 635px;
+  height: 400px;
+  flex-shrink: 0;
+  padding-right: 70px;
+}
+.yourday {
+  color: var(--Almost-Black, #151515);
+  font-feature-settings: "liga" off, "clig" off;
+
+  font-family: "Big Shoulders Display";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  text-transform: uppercase;
+  width: 350px;
+  text-wrap: nowrap;
+}
+.wander {
+  width: 350px;
+  color: var(--Dark-Grey, #444);
+  font-feature-settings: "liga" off, "clig" off;
+
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.box3 {
+  padding-left: 30px;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img_txtDiv {
+  /* max-width: 635px;
+  height: 720px; */
+  padding-top: 25px;
+  flex-direction: column;
+  display: flex;
+  gap: 30px;
+}
+.chairdiv {
+  max-width: 635px;
+  height: 695px;
+}
+.chairIMG {
+  width: 635px;
+  height: 720px;
+  flex-shrink: 0;
+}
+.paints {
+  max-width: 445px;
+  height: auto;
+  flex-shrink: 0;
+}
+.txtDIv {
+  padding-left: 100px;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  gap: 32px;
+  max-width: 445px;
+  height: 377px;
+  flex-shrink: 0;
+  background: var(--Almost-Black, #151515);
+}
+.come {
+  max-width: 350px;
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+
+  /* Heading (M) */
+  font-family: "Big Shoulders Display";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px; /* 100% */
+  text-transform: uppercase;
+}
+.were {
+  max-width: 350px;
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+
+  /* Body (M) */
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 145.455% */
+}
+.footer {
+  padding: 100px;
+  display: flex;
+  margin-top: 125px;
+  max-width: 1440px;
+  height: 244px;
+  background: var(--Almost-Black, #151515);
+}
+.footertxt {
+  display: flex;
+  gap: 140px;
+  padding-left: 80px;
+}
+.MODERNART {
+  color: white;
+  font-family: Outfit;
+}
+.p1 {
+  width: 430px;
+  flex-shrink: 0;
+  color: var(--White, #fff);
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+.icondiv {
+  padding-top: 10px;
+  padding-left: 230px;
+}
+@media (max-width: 768px) and (min-width: 376px) {
+  .img1 {
+    display: none;
+  }
+  .modern {
+    text-wrap: nowrap;
+    padding-left: 250px;
+    color: black;
+    position: absolute;
+    top: -35px;
+  }
+  .thearts {
+    position: absolute;
+    left: 265px;
+    top: 170px;
+  }
+  .btndiv {
+    position: absolute;
+    left: 265px;
+    top: 370px;
+  }
+  .txt_div2 {
+    padding-left: 350px;
+  }
+  .footer {
+    position: relative;
+    width: 1000px;
+    height: 216px;
+  }
+  .MODERNART {
+    position: absolute;
+    /* width: 110.05px;
+    height: 40px; */
+    flex-shrink: 0;
+    text-wrap: nowrap;
+    left: 10px;
+    top: 45px;
+  }
+  .p1 {
+    position: absolute;
+    top: 45px;
+    left: 250px;
+  }
+  .icons {
+    position: absolute;
+    left: 800px;
+    top: 45px;
+  }
+}
+@media (max-width: 375px) {
+  .img1 {
+    display: none;
+  }
+  .modern {
+    position: absolute;
+    top: 370px;
+    color: black;
+    left: -200px;
+  }
+  .thearts {
+    position: absolute;
+    left: -200px;
+    top: 600px;
+  }
+  .btndiv {
+    position: absolute;
+    left: -200px;
+    top: 800px;
+  }
+  .box2 {
+    margin-left: 50px;
+    padding-top: 600px;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .img3 {
+    width: 343px;
+    height: 320px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 200px;
+  }
+  .chairdiv {
+    width: 343px;
+    height: 480px;
+    flex-shrink: 0;
+  }
+  .chairIMG {
+    width: 343px;
+    height: 480px;
+    flex-shrink: 0;
+  }
+  .paints {
+    width: 343px;
+    height: 200px;
+    flex-shrink: 0;
+  }
+  .box3 {
+    padding-top: 50px;
+    flex-direction: column;
+  }
+  .txtDIv {
+    padding: 50px;
+  }
+  .footer {
+    flex-direction: column;
+    width: 450px;
+    height: 500px;
+    flex-shrink: 0;
+  }
+  .MODERNART {
+    font-size: 18px;
+    text-wrap: nowrap;
+    /* position: absolute; */
+    left: 25px;
+  }
+  .footertxt {
+    position: absolute;
+    left: -10px;
+    gap: 38px;
+    flex-direction: column;
+  }
+
+  .icondiv {
+    position: absolute;
+    left: -150px;
+    top: 3400px;
+  }
+}
