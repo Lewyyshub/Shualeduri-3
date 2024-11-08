@@ -16,6 +16,7 @@
 .container {
   max-width: 1439px;
   height: 2554px;
+  width: 100%;
   background-color: white;
   display: block;
   margin-left: auto;
@@ -181,8 +182,8 @@
   align-items: center;
 }
 .img_txtDiv {
-  /* max-width: 635px;
-  height: 720px; */
+  max-width: 635px;
+  height: 720px;
   padding-top: 25px;
   flex-direction: column;
   display: flex;
@@ -256,6 +257,7 @@
   font-family: Outfit;
 }
 .p1 {
+  width: 100;
   width: 430px;
   flex-shrink: 0;
   color: var(--White, #fff);
@@ -269,10 +271,11 @@
   padding-top: 10px;
   padding-left: 230px;
 }
-@media (max-width: 768px) and (min-width: 376px) {
+@media (min-width:375px) and (max-width: 768px) {
   .img1 {
     display: none;
   }
+  
   .modern {
     text-wrap: nowrap;
     padding-left: 250px;
@@ -382,7 +385,7 @@
   .MODERNART {
     font-size: 18px;
     text-wrap: nowrap;
-    /* position: absolute; */
+    position: absolute;
     left: 25px;
   }
   .footertxt {
